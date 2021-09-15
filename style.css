@@ -64,7 +64,7 @@ body {
 .search-bar {
   position: absolute;
   position: absolute;
-  left: 500px;
+  left: 400px;
   top: 85px;
 
   box-shadow: rgb(100 100 111 / 86%) 0px 23px 37px -24px;
@@ -89,8 +89,8 @@ input[type="text"]:focus {
 
 .search-bar-icon {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 4px;
+  right: 4px;
   padding: 13px;
   background-color: #2c7f6b;
   font-size: 20px;
@@ -298,7 +298,7 @@ table {
 
 .should-try__text {
     position: absolute;
-    top: 2420px;
+    top: 2394px;
     left: 89px;
     padding: 0 0px;
     font-size: 37px;
@@ -307,10 +307,12 @@ table {
 .should-try-table {
     position: absolute;
     top: 2379px;
-    left: -48px;
+    left: -26px;
+
     border-collapse: separate;
-    border-spacing: 6em;
+    border-spacing: 5em;
 }
+
 .should-try-table img {
     width: 344px;
     height: 280px;
