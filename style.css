@@ -26,17 +26,17 @@ body {
 }
 
 .nav {
-  min-height: 119px;
-
-  display: flex;
-  justify-content: space-around;
-
-  position: relative;
-  top: 10px;
-
-  font-size: 20px;
+    min-height: 12px;
+    background-color: #175243;
+    min-height: 55px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed !important;
+    top: 0px;
+    font-size: 20px;
+    width: 100%;
+    z-index: 9999;
 }
-
 .nav-list {
   padding-left: 0;
   margin: auto 16px;
@@ -44,7 +44,7 @@ body {
 
 .nav-item {
   color: #fff;
-  background-color: #256e5c;
+  /* background-color: #256e5c; */
 
   list-style: none;
   margin: 0 8px;
@@ -53,9 +53,8 @@ body {
   border-radius: 60%;
 }
 .nav-item:hover {
-  opacity: 0.75;
-  /* color: #000000 !important; */
-  background-color: rgb(20, 13, 13);
+  opacity: 0.5;
+  
 }
 .nav-item a {
   text-decoration: none;
@@ -64,8 +63,10 @@ body {
 
 .search-bar {
   position: absolute;
+  position: absolute;
   left: 500px;
-  /* box-shadow: -42px 14px 26px #888888; */
+  top: 85px;
+
   box-shadow: rgb(100 100 111 / 86%) 0px 23px 37px -24px;
 }
 .search-bar__size {
@@ -191,14 +192,13 @@ input[type="text"]:focus {
 
 table {
     position: relative;
-    top: 759px;
+    top: 875px;
     font-size: 18px;
     border-collapse: separate;
     border-spacing: 3em;
     text-align: center;
     padding: 0 29px;
 }
-
 .explore-places--table img {
   width: 60px;
   height: 60px;
@@ -225,7 +225,7 @@ table {
 }
 .table-choices {
     position: relative;
-    top: 816px;
+    top: 932px;
     left: 31px;
 
     padding: 0;
