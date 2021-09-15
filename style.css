@@ -209,5 +209,22 @@ table{
         top: 759px;
         padding: 0 30px;
         font-size: 18px;
+
+        border-collapse:separate; 
+        border-spacing:4em;
+
+        text-align:center;
     
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+
+    border-radius:13px;
+    box-shadow: rgb(100 100 111 / 79%) -39px 34px 43px -32px;
+}
+
+table img:hover{
+    opacity: 0.7;
 }
