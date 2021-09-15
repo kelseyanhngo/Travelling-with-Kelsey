@@ -237,3 +237,35 @@ table {
     border-radius: 14px;
 
 }
+
+.host img{
+    width: 1257px;
+    height: 581px;
+    position: absolute;
+    top: 1731px;
+    max-width: 100%;
+    left: 84px;
+
+    border-radius: 18px;
+
+    z-index: -1;
+}
+
+.host .host-text {
+    z-index: 1;
+    position: absolute;
+    top: 1787px;
+    left: 159px;
+    font-size: 38px;
+    font-style: italic;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.host-text--two {
+    position: absolute;
+    top: 1845px;
+    left: 166px;
+    color: #fff;
+    opacity: 0.9;
+}
