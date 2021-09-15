@@ -228,3 +228,7 @@ table img {
 table img:hover{
     opacity: 0.7;
 }
+
+table p{
+    font-style: italic;
+}
