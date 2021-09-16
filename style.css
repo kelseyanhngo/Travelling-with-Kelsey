@@ -1,5 +1,5 @@
 body {
-  background-image: url("/img/backgound1.jpg");
+  background-image: url('/img/backgound1.jpg');
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-size: 100% 830px;
@@ -26,16 +26,16 @@ body {
 }
 
 .nav {
-    min-height: 12px;
-    background-color: #175243;
-    min-height: 55px;
-    display: flex;
-    justify-content: space-around;
-    position: fixed !important;
-    top: 0px;
-    font-size: 20px;
-    width: 100%;
-    z-index: 9999;
+  min-height: 12px;
+  background-color: #020b096e;
+  min-height: 55px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed !important;
+  top: 0px;
+  font-size: 20px;
+  width: 100%;
+  z-index: 9999;
 }
 .nav-list {
   padding-left: 0;
@@ -198,6 +198,10 @@ table {
     border-spacing: 3em;
     text-align: center;
     padding: 0 29px;
+}
+
+.explore-places--table-mobile{
+  display: none;
 }
 .explore-places--table img {
   width: 60px;
@@ -368,7 +372,7 @@ table {
 }
 .footer-list {
   list-style: none;
-  padding: 40px 0px;
+  padding: 30px 0px;
 }
 .footer-list a{
   text-decoration: none;
@@ -382,4 +386,18 @@ table {
 
 .footer-item {
   padding: 5px 0;
+}
+
+.social-media {
+  position: absolute;
+  left: 40%;
+  font-size: 25px;
+  opacity: 0.6;
+}
+.social-media a{
+  color: rgb(74, 74, 74);
+}
+
+.social-media--item:hover {
+  color: rgb(3, 3, 3);
 }

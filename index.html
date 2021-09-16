@@ -7,6 +7,8 @@
         <title>Travelling with Kelsey</title>
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+
         <link rel="stylesheet"
             href="./fonts/fontawesome-free-5.15.4-web/css/all.min.css">
 
@@ -35,10 +37,17 @@
             </ul>
         </div>
 
+        <!-- Navbar mobile -->
+
         <div class="search-bar">
             <input class="search-bar__size" type="text" name="search-bar" id="">
             <a href=""> <i class="search-bar-icon fas fa-search"></i></a>
         </div>
+
+
+
+
+
 
         <p class="explore-text">Can't find any places to travel? <br> Worry not!</p>
         <!-- click button -->
@@ -51,7 +60,8 @@
         <p class="explore-places">
             Discover Places Around You!
         </p>
-        <!-- places table -->
+
+        <!-- places table pc -->
         <table class="explore-places--table">
             <tr>
                 <th><img src="./img/ottawa.jpg" alt="Ottawa">
@@ -99,6 +109,41 @@
                     <p></p>
                     Ottawa
                     <p> 1 hour driving</p></th>
+            </tr>
+
+        </table>
+
+        <!-- places mobile -->
+        <table class="explore-places--table-mobile">
+            <tr>
+                <th><img src="./img/ottawa.jpg" alt="Ottawa">
+                    <p></p>
+                    Ottawa
+                    <p> 1 hour driving</p></th>
+                <th><img src="./img/montreal.jpg" alt="Montreal">
+                    <p></p>
+                    Montreal
+                    <p> 2 hours driving</p></th>
+                <th><img src="./img/PEI.jpeg">
+                    <p></p>
+                    PEI
+                    <p>6 hours driving</p></th>
+            
+            </tr>
+            <tr>
+                <td><img src="./img/regina.jpg" alt="Regina">
+                    <p></p>
+                    Regina
+                    <p>9 hours driving</p></td>
+                <td><img src="./img/toronto.jpg" alt="Toronto">
+                    <p></p>
+                    Toronto
+                    <p>3 hours driving</p></td>
+                <td><img src="./img/vancouver.jpg" alt="Vancouver">
+                    <p></p>
+                    Vancouver
+                    <p> 8 hours driving</p></td>
+                
             </tr>
 
         </table>
@@ -164,148 +209,157 @@
         </div>
 
 
-        <!-- Footer -->
-
-        <footer class="footer">
-            <dive class="grid">
-                <div class="grid__row">
-                    <div class="grid__column-2-4">
-                        <h3 class="footer__heading">About</h3>
-                        <ul class="footer-list">
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">How AirBay
-                                    works</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Newsroom</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">AirBay
-                                    Today</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Investor</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">AirBay Plus</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Careers</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="grid__column-2-4">
-                        <h3 class="footer__heading">Community</h3>
-                        <ul class="footer-list">
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Diversity &
-                                    Belonging</a>
-
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Against
-                                    Discrimination</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Accessibility</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Guest
-                                    Referrals</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Gift cards</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">AirBay.org</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="grid__column-2-4">
-                        <!-- <div class="h3 footer__heading"></div>
-                        <ul class="footer-list">
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link"></a>
-                                <a href="" class="footer-item__link"></a>
-                                <a href="" class="footer-item__link"></a>
-                                <a href="" class="footer-item__link"></a>
-                                <a href="" class="footer-item__link"></a>
-                                <a href="" class="footer-item__link"></a>
-
-                            </li>
-                        </ul> -->
-                    </div>
-                    <div class="grid__column-2-4">
-                        <h3 class="footer__heading">Host</h3>
-                        <ul class="footer-list">
-
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Host your
-                                    home</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Host an
-                                    Online Experience</a>
-
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Host an
-                                    Experience</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Responsible
-                                    hosting</a>
-
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Resource
-                                    Center</a>
-
-                            </li>
-
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Community
-                                    Center</a>
-
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="grid__column-2-4">
-                        <h3 class="footer__heading">Support</h3>
-                        <ul class="footer-list">
-
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Our
-                                    COVID-19 Response</a>
-
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Help Center</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Cancellation
-                                    options</a>
-
-                            </li>
-                            <li class="footer-item">
-                                <a href="" class="footer-item__link">Neighborhood
-                                    Support</a>
-
-                            </li>
-
-                            <li class="footer-item">
-
-                                <a href="" class="footer-item__link">Trust &
-                                    Safety</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </dive>
-        </footer>
+        
     </body>
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">About</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">How AirBay
+                                works</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Newsroom</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">AirBay
+                                Today</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Investor</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">AirBay Plus</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Careers</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Community</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Diversity &
+                                Belonging</a>
+
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Against
+                                Discrimination</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Accessibility</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Guest
+                                Referrals</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Gift cards</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">AirBay.org</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <!-- <div class="h3 footer__heading"></div>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link"></a>
+                            <a href="" class="footer-item__link"></a>
+                            <a href="" class="footer-item__link"></a>
+                            <a href="" class="footer-item__link"></a>
+                            <a href="" class="footer-item__link"></a>
+                            <a href="" class="footer-item__link"></a>
+
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Host</h3>
+                    <ul class="footer-list">
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Host your
+                                home</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Host an
+                                Online Experience</a>
+
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Host an
+                                Experience</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Responsible
+                                hosting</a>
+
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Resource
+                                Center</a>
+
+                        </li>
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Community
+                                Center</a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Support</h3>
+                    <ul class="footer-list">
+
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Our
+                                COVID-19 Response</a>
+
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Help Center</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Cancellation
+                                options</a>
+
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Neighborhood
+                                Support</a>
+
+                        </li>
+
+                        <li class="footer-item">
+
+                            <a href="" class="footer-item__link">Trust &
+                                Safety</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-facebook-square"></i></a>
+            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-instagram-square"></i></a>
+            <a href="https://www.linkedin.com/in/anh-thu-ngo-b15948211/"> <i class="social-media--item fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-twitter-square"></i></a>
+            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-pinterest-square"></i></a>
+            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fas fa-envelope-square"></i></a>
+        </div>
+    </footer>
 
 
 </html>
