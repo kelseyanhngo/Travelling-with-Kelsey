@@ -1,7 +1,5 @@
 @media screen and (max-width: 720px) {
-  html {
-    width: 100%;
-  }
+  
   body {
     background-image: url("./img/backgound1.jpg");
     background-repeat: no-repeat;
@@ -70,9 +68,7 @@
   .table-choices {
     display: none;
   }
-  .choices-mobile {
-    display: inline-flex;
-  }
+ 
 
   .choices-mobile {
     position: relative;
@@ -81,7 +77,9 @@
     display: flex;
     flex-direction: column;
     
-    padding-left: 34px;
+    padding-left: 67px;
+    display: inline-flex;
+
 }
 
   .choices-mobile img {
@@ -95,7 +93,7 @@
   }
   .choice p {
     position: absolute;
-    left: 80px;
+    left: 153px;
   }
   .host {
     position: relative;
