@@ -303,7 +303,9 @@ table {
     background-color: rgb(9, 68, 47);
     opacity: 0.7;
 }
-
+.should-try-mobile{
+  display: none;
+}
 .should-try__text {
     position: absolute;
     top: 2394px;
