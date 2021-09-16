@@ -3,7 +3,7 @@
     background-image: url("/img/backgound1.jpg");
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    background-size: 100% 600px;
+    background-size: 108% 600px;
   }
 
   .search-bar {
@@ -100,9 +100,10 @@
   }
   .host img {
     width: 100%;
-    left: 1px;
-    border-radius: 3px;
-  }
+    left: 16px;
+    /* border-radius: 8px; */
+    padding: 0px 11px;
+}
   .host .host-text {
     position: absolute;
     left: 36px;
@@ -158,7 +159,7 @@
 
   .footer {
     position: relative;
-    width: 100%;
+    width: 108%;
     height: 1139px;
     top: 2235px;
 }
