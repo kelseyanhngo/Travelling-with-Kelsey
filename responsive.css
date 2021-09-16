@@ -26,10 +26,10 @@
   .explore-places {
     top: 640px;
     border: 0 10px;
-    padding: 0px 30px;
-    font-size: 24px;
+    padding: 0px 67px;
+    font-size: 21.7px;
     font-weight: bold;
-  }
+}
 
   .explore-places--table {
     display: none;
@@ -42,8 +42,7 @@
     border-collapse: separate;
     border-spacing: 3em;
     text-align: center;
-    /* padding: 13px -32px; */
-    left: -38px;
+   
   }
   .explore-places--table-mobile img {
     width: 60px;
@@ -62,9 +61,9 @@
   }
   .text-choices {
     top: 991px;
-    padding: 0 35px;
-    font-size: 24px;
-  }
+    padding: 13px 66px 0px;
+    font-size: 21.7px;
+}
   .table-choices {
     display: none;
   }
