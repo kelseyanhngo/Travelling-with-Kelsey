@@ -227,6 +227,9 @@ table {
     font-size: 37px;
     font-weight: bold;
 }
+.choices-mobile{
+  display: none;
+}
 .table-choices {
     position: relative;
     top: 932px;
@@ -234,6 +237,7 @@ table {
 
     padding: 0;
 }
+
 .table-choices img {
     width: 280px;
     height: 273px;
