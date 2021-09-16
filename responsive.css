@@ -1,5 +1,4 @@
 @media screen and (max-width: 720px) {
-  
   body {
     background-image: url("./img/backgound1.jpg");
     background-repeat: no-repeat;
@@ -29,7 +28,7 @@
     padding: 0px 67px;
     font-size: 21.7px;
     font-weight: bold;
-}
+  }
 
   .explore-places--table {
     display: none;
@@ -42,7 +41,6 @@
     border-collapse: separate;
     border-spacing: 3em;
     text-align: center;
-   
   }
   .explore-places--table-mobile img {
     width: 60px;
@@ -63,23 +61,21 @@
     top: 991px;
     padding: 13px 66px 0px;
     font-size: 21.7px;
-}
+  }
   .table-choices {
     display: none;
   }
- 
 
   .choices-mobile {
     position: relative;
     top: 726px;
-    
+
     display: flex;
     flex-direction: column;
-    
+
     padding-left: 67px;
     display: inline-flex;
-
-}
+  }
 
   .choices-mobile img {
     width: 280px;
@@ -88,7 +84,7 @@
     border-radius: 14px;
   }
   .choice {
-    padding-bottom: 40px;
+    padding-bottom: 55px;
   }
   .choice p {
     position: absolute;
@@ -105,18 +101,18 @@
   }
   .host .host-text {
     position: absolute;
-    left: 36px;
+    left: 73px;
     top: 1753px;
     /* background-color: red; */
   }
   .host-text--two {
     top: 1809px;
-    left: 35px;
+    left: 73px;
     width: 261px;
   }
   .host-button {
     top: 1858px;
-    left: 31px;
+    left: 73px;
   }
 
   .should-try {
@@ -128,14 +124,13 @@
     position: absolute;
     top: 3100px;
 
-    padding: 13px 35px 0px;
+    padding: 13px 70px 0px;
   }
 
   .should-try-mobile__text {
     font-size: 21.7px;
-    padding: 0px 34px;
-}
-
+    padding: 7px 2px;
+  }
   .should-try-mobile .should-try-mobile--item .item img {
     width: 200px;
     border-radius: 14px;
@@ -161,26 +156,24 @@
     width: 100%;
     height: 1139px;
     top: 2235px;
-}
-
+  }
 
   .grid__row {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 37px;
-    
-}
-.footer-item {
+    left: 70px;
+  }
+  .footer-item {
     padding: 5px 0;
     width: 178px;
-}
+  }
 
-.social-media {
+  .social-media {
     position: absolute;
-    left: 9%;
+    left: 70px;
     top: 1067px;
     opacity: 0.6;
     font-size: 24px;
-}
+  }
 }
