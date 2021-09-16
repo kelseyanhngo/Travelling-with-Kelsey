@@ -1,4 +1,7 @@
 @media screen and (max-width: 720px) {
+  html {
+    width: 100%;
+  }
   body {
     background-image: url("./img/backgound1.jpg");
     background-repeat: no-repeat;
