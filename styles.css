@@ -33,6 +33,8 @@ body {
 
     z-index: 999;
 
+    height: 80px;
+
 }
   .nav-list {
     padding-left: 0;
@@ -128,8 +130,9 @@ body {
     align-items: center;
     position: absolute;
     text-align: center;
-    top: 170px;
-    right: 15%;
+    top: 300px;
+    right: 0%;
+    right: 20%;
 }
 /* click button */
 
@@ -375,4 +378,8 @@ body {
 body .row {
   margin-right: 0;
 
+}
+
+.dis-text__span{
+  font-size:22px;
 }
