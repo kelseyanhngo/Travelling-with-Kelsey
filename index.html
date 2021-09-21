@@ -1,429 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Travelling with Kelsey</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelling with Kelsey</title>
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
 
-        <link rel="stylesheet"
-            href="./fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="./fonts/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
 
-        <!-- font style -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
-            rel="stylesheet">
-    </head>
-    <body>
-        <!-- Header -->
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- <img src="./img/logo2.png" alt="" class="logo">  -->
-        <!-- Navbar -->
-        <div class="nav">
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- Navbar -->
 
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#"> Places</a></li>
-                <li class="nav-item"><a href="#">Experiences</a></li>
-                <li class="nav-item"><a href="#">Virtual Experiences</a></li>
-            </ul>
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#">Sign in</a></li>
-                <li class="nav-item"><a href="#">Sign up</a></li>
-            </ul>
-        </div>
+    <div class="nav">
+      <div class="nav-lists">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#"> Places</a></li>
+          <li class="nav-item"><a href="#">Experiences</a></li>
+          <li class="nav-item"><a href="#">Virtual Experiences</a></li>
+        </ul>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">Sign in</a></li>
+          <li class="nav-item"><a href="#">Sign up</a></li>
+        </ul>
+      </div>
+    </div>
 
-        <!-- Navbar mobile -->
+    <!-- Navbar mobile -->
 
-        <div class="search-bar">
-            <input class="search-bar__size" type="text" name="search-bar" id="">
-            <a href=""> <i class="search-bar-icon fas fa-search"></i></a>
-        </div>
+    <div class="search-bar">
+      <form action="" class="search-item">
+        <input class="search-bar__size" type="text" name="search-bar" id="" />
+        <button type="submit" class="btn-submit">
+          <i class="search-bar-icon fas fa-search"></i>
+        </button>
+      </form>
+    </div>
 
+    <div class="text-button">
+      <p class="explore-text">
+        Can't find any places to travel? <br />
+        Worry not!
+      </p>
+      <!-- click button -->
+      <div class="text-box">
+        <div class="bnt btn-white btn-animate">Explore Now!</div>
+      </div>
+    </div>
 
+    <!-- Nearest places -->
+    <p class="title-dis">Discover Places Around You!</p>
 
+    <!-- places table pc -->
+    <div class="row explore-places">
+      <div class="col-6 col-md-4 col-lg-3 pic-info">
+        <img src="./img/ottawa.jpg" alt="Ottawa" />
+        <span>Ottawa</span>
+        <p>1 hour driving</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 pic-info">
+        <img src="./img/ottawa.jpg" alt="Ottawa" />
+        <span>Ottawa</span>
+        <p>1 hour driving</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 pic-info">
+        <img src="./img/ottawa.jpg" alt="Ottawa" />
+        <span>Ottawa</span>
+        <p>1 hour driving</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 pic-info">
+        <img src="./img/ottawa.jpg" alt="Ottawa" />
+        <span>Ottawa</span>
+        <p>1 hour driving</p>
+      </div>
 
+      <div class="col-6 col-md-4 col-lg-3 pic-info">
+        <img src="./img/ottawa.jpg" alt="Ottawa" />
+        <span>Ottawa</span>
+        <p>1 hour driving</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 pic-info">
+        <img src="./img/ottawa.jpg" alt="Ottawa" />
+        <span>Ottawa</span>
+        <p>1 hour driving</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 pic-info">
+        <img src="./img/ottawa.jpg" alt="Ottawa" />
+        <p>Ottawa</p>
+        <p>1 hour driving</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 pic-info">
+        <img src="./img/ottawa.jpg" alt="Ottawa" />
+        <span>Ottawa</span>
+        <p>1 hour driving</p>
+      </div>
+    </div>
 
+    <!-- anywhere in the world -->
+    <p class="title-dis">Multiple choices</p>
 
-        <p class="explore-text">Can't find any places to travel? <br> Worry not!</p>
-        <!-- click button -->
-        <div class="text-box">
-            <a href="#" class="btn btn-white btn-animate">Explore Now!</a>
-        </div>
+    <div class="row table-choices">
+      <div class="choices col-12 col-md-6 col-lg-3">
+        <img src="./img/choices/pic1.jfif" alt="" />
+        <p>Outdoor Resort</p>
+      </div>
+      <div class="choices col-12 col-md-6 col-lg-3">
+        <img src="./img/choices/pic1.jfif" alt="" />
+        <p>Outdoor Resort</p>
+      </div>
+      <div class="choices col-12 col-md-6 col-lg-3">
+        <img src="./img/choices/pic1.jfif" alt="" />
+        <p>Outdoor Resort</p>
+      </div>
+      <div class="choices col-12 col-md-6 col-lg-3">
+        <img src="./img/choices/pic1.jfif" alt="" />
+        <p>Outdoor Resort</p>
+      </div>
+    </div>
 
+    <!-- Wanna be a host? -->
+    <div class="host">
+        <div class="host-items">
 
-        <!-- Nearest places -->
-        <p class="explore-places">
-            Discover Places Around You!
-        </p>
-
-        <!-- places table pc -->
-        <table class="explore-places--table">
-            <tr>
-                <th><img src="./img/ottawa.jpg" alt="Ottawa">
-                    <p></p>
-                    Ottawa
-                    <p> 1 hour driving</p></th>
-                <th><img src="./img/montreal.jpg" alt="Montreal">
-                    <p></p>
-                    Montreal
-                    <p> 2 hours driving</p></th>
-                <th><img src="./img/PEI.jpeg">
-                    <p></p>
-                    Prince Edward Island
-                    <p>6 hours driving</p></th>
-                <th><img src="./img/montreal.jpg" alt="Montreal">
-                    <p></p>
-                    Montreal
-                    <p> 2 hours driving</p></th>
-                <td><img src="./img/regina.jpg" alt="Regina">
-                    <p></p>
-                    Regina
-                    <p>9 hours driving</p></td>
-
-
-
-            </tr>
-            <tr>
-                <td><img src="./img/regina.jpg" alt="Regina">
-                    <p></p>
-                    Regina
-                    <p>9 hours driving</p></td>
-                <td><img src="./img/toronto.jpg" alt="Toronto">
-                    <p></p>
-                    Toronto
-                    <p>3 hours driving</p></td>
-                <td><img src="./img/vancouver.jpg" alt="Vancouver">
-                    <p></p>
-                    Vancouver
-                    <p> 8 hours driving</p></td>
-                <th><img src="./img/PEI.jpeg">
-                    <p></p>
-                    Prince Edward Island
-                    <p>6 hours driving</p></th>
-                <th><img src="./img/ottawa.jpg" alt="Ottawa">
-                    <p></p>
-                    Ottawa
-                    <p> 1 hour driving</p></th>
-            </tr>
-
-        </table>
-
-        <!-- places mobile -->
-        <table class="explore-places--table-mobile">
-            <tr>
-                <th><img src="./img/ottawa.jpg" alt="Ottawa">
-                    <p></p>
-                    Ottawa
-                    <p> 1 hour driving</p></th>
-                <th><img src="./img/montreal.jpg" alt="Montreal">
-                    <p></p>
-                    Montreal
-                    <p> 2 hours driving</p></th>
-                <th><img src="./img/PEI.jpeg">
-                    <p></p>
-                    PEI
-                    <p>6 hours driving</p></th>
-            
-            </tr>
-            <tr>
-                <td><img src="./img/regina.jpg" alt="Regina">
-                    <p></p>
-                    Regina
-                    <p>9 hours driving</p></td>
-                <td><img src="./img/toronto.jpg" alt="Toronto">
-                    <p></p>
-                    Toronto
-                    <p>3 hours driving</p></td>
-                <td><img src="./img/vancouver.jpg" alt="Vancouver">
-                    <p></p>
-                    Vancouver
-                    <p> 8 hours driving</p></td>
-                
-            </tr>
-
-        </table>
-
-
-
-
-        <!-- anywhere in the world -->
-        <p class="text-choices">Multiple choices</p>
-
-        <table class="table-choices">
-            <tr>
-                <th><img src="./img/choices/pic1.jfif" alt="">
-                    <p></p>
-                    Outdoor Resort </th>
-                <th><img src="./img/choices/pic2.png" alt="">
-                    <p></p>
-                    Special Places</th>
-                <th><img src="./img/choices/pic3.jpg">
-                    <p></p>
-                    Full House Renting</th>
-                <th><img src="./img/choices/pic4.jpg_cropX1=0&cropX2=1500&cropY1=339&cropY2=1339"
-                        alt="">
-                    <p></p>
-                    Pets Allowed</th>
-
-
-            </tr>
-        </table>
-
-
-        <div class="choices-mobile">
-            <div class="choice">
-                <img src="./img/choices/pic1.jfif" alt="">
-                    <p>Outdoor Resort</p>
-                    
-            </div>
-
-            <div class="choice">
-                <img src="./img/choices/pic2.png" alt="">
-                <p>Special Places</p>
-                
-            </div>
-
-            <div class="choice">
-                <img src="./img/choices/pic4.jpg_cropX1=0&cropX2=1500&cropY1=339&cropY2=1339"
-                alt="">
-            <p>Pets Allowed</p>
-            
-            </div>
-
-            <div class="choice">
-                <img src="./img/choices/pic3.jpg">
-                <p>Full House Renting</p>
-                
-            </div>
-        </div>
-
-
-        <!-- Wanna be a host? -->
-        <div class="host">
-            <p class="host-text">Try hosting</p>
+            <span class="host-text">Try hosting</span>
             <p class="host-text--two">Earn extra income and unlock new
                 opportunities by sharing your space.</p>
-            <img src="./img/host.jpg" alt="Wanna be a host?">
-            <button class="host-button">Learn more!</button>
-        </div>
-
-        <!-- Explore what we should try -->
-        <div class="should-try">
-            <p class="should-try__text">
-                Explore what we should try
-            </p>
-
-            <table class="should-try-table">
-                <tr>
-                    <th><img src="./img/experiences/pic1.jfif" alt="Ottawa">
-                        <p></p>
-                        <h3> Experiences</h3>
-                        <p>Find out unforgettable experiences.</p> </th>
-                    <th><img src="./img/experiences/pic2.jpg" alt="Montreal">
-                        <p></p>
-                        <h3> Online Experiences</h3>
-                        <p>Online activities with people around the world!</p>
-                    </th>
-                    <th><img src="./img/experiences/pic3.jfif">
-                        <p></p>
-                        <h3> Featured Collection: Adventure</h3>
-                        <p>Travelling at home with virtual trips.</p> </th>
-                </tr>
-            </table>
-        </div>
-
-        <!-- Should try mobile part -->
-        <div class="should-try-mobile">
-            <p class="should-try-mobile__text">
-                Explore what we should try
-            </p>
-            <div class="should-try-mobile--item">
-                <div class="item">
-                    <img src="./img/experiences/pic1.jfif" alt="Ottawa">
-                    <p></p>
-                    <h3> Experiences</h3>
-                    <p>Find out unforgettable experiences.</p>
-                </div>
     
-                <div class="item">
-                    <img src="./img/experiences/pic2.jpg" alt="Montreal">
-                        <p></p>
-                        <h3> Online Experiences</h3>
-                        <p>Online activities with people around the world!</p>
-                    
-                </div>
-    
-                <div class="item">
-                    <img src="./img/experiences/pic3.jfif">
-                        <p></p>
-                        <h3> Featured Collection: Adventure</h3>
-                        <p>Travelling at home with virtual trips.</p> </th>
-               
-                </div>
-    
-               
-            </div>
-
-
+            <button class=" host-button">Learn more!</button>
         </div>
 
 
+        <img src="./img/host.jpg" alt="Wanna be a host?">
         
-    </body>
-    <!-- Footer -->
+    </div>
 
-    <footer class="footer">
-        <div class="grid">
-            <div class="grid__row">
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">About</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">How AirBay
-                                works</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Newsroom</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">AirBay
-                                Today</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Investor</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">AirBay Plus</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Careers</a>
-                        </li>
+  </body>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="grid">
+        <div class="grid__row">
+            <div class="grid__column-2-4">
+                <h3 class="footer__heading">About</h3>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">How AirBay
+                            works</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Newsroom</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">AirBay
+                            Today</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Investor</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">AirBay Plus</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Careers</a>
+                    </li>
 
-                    </ul>
-                </div>
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">Community</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Diversity &
-                                Belonging</a>
+                </ul>
+            </div>
+            <div class="grid__column-2-4">
+                <h3 class="footer__heading">Community</h3>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Diversity &
+                            Belonging</a>
 
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Against
-                                Discrimination</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Accessibility</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Guest
-                                Referrals</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Gift cards</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">AirBay.org</a>
-                        </li>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Against
+                            Discrimination</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Accessibility</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Guest
+                            Referrals</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Gift cards</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">AirBay.org</a>
+                    </li>
 
-                    </ul>
-                </div>
-                <div class="grid__column-2-4">
-                    <!-- <div class="h3 footer__heading"></div>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link"></a>
-                            <a href="" class="footer-item__link"></a>
-                            <a href="" class="footer-item__link"></a>
-                            <a href="" class="footer-item__link"></a>
-                            <a href="" class="footer-item__link"></a>
-                            <a href="" class="footer-item__link"></a>
+                </ul>
+            </div>
+            <div class="grid__column-2-4">
+        
+            </div>
+            <div class="grid__column-2-4">
+                <h3 class="footer__heading">Host</h3>
+                <ul class="footer-list">
 
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">Host</h3>
-                    <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Host your
+                            home</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Host an
+                            Online Experience</a>
 
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Host your
-                                home</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Host an
-                                Online Experience</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Host an
+                            Experience</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Responsible
+                            hosting</a>
 
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Host an
-                                Experience</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Responsible
-                                hosting</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Resource
+                            Center</a>
 
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Resource
-                                Center</a>
+                    </li>
 
-                        </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Community
+                            Center</a>
 
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Community
-                                Center</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__column-2-4">
+                <h3 class="footer__heading">Support</h3>
+                <ul class="footer-list">
 
-                        </li>
-                    </ul>
-                </div>
-                <div class="grid__column-2-4">
-                    <h3 class="footer__heading">Support</h3>
-                    <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Our
+                            COVID-19 Response</a>
 
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Our
-                                COVID-19 Response</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Help Center</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Cancellation
+                            options</a>
 
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Help Center</a>
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Cancellation
-                                options</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item__link">Neighborhood
+                            Support</a>
 
-                        </li>
-                        <li class="footer-item">
-                            <a href="" class="footer-item__link">Neighborhood
-                                Support</a>
+                    </li>
 
-                        </li>
+                    <li class="footer-item">
 
-                        <li class="footer-item">
-
-                            <a href="" class="footer-item__link">Trust &
-                                Safety</a>
-                        </li>
-                    </ul>
-                </div>
+                        <a href="" class="footer-item__link">Trust &
+                            Safety</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="social-media">
-            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-facebook-square"></i></a>
-            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-instagram-square"></i></a>
-            <a href="https://www.linkedin.com/in/anh-thu-ngo-b15948211/"> <i class="social-media--item fab fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-twitter-square"></i></a>
-            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-pinterest-square"></i></a>
-            <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fas fa-envelope-square"></i></a>
-        </div>
-    </footer>
-
-
+    </div>
+    <div class="social-media">
+        <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-facebook-square"></i></a>
+        <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-instagram-square"></i></a>
+        <a href="https://www.linkedin.com/in/anh-thu-ngo-b15948211/"> <i class="social-media--item fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-twitter-square"></i></a>
+        <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fab fa-pinterest-square"></i></a>
+        <a href="https://www.facebook.com/Kelseyanhngo/"> <i class="social-media--item fas fa-envelope-square"></i></a>
+    </div>
+</footer>
 </html>
